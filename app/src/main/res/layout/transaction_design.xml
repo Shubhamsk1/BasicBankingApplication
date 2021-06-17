@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundshapecard"
+    android:padding="10dp"
+    android:layout_marginBottom="7dp"
+    >
+
+        <TextView
+            android:id="@+id/txt_from"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="Shubham"
+            android:paddingLeft="3dp"
+            android:textStyle="bold"
+            android:textColor="@color/transactionColor"
+            android:textSize="25sp"
+            android:gravity="left"
+            android:layout_weight="1"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_to"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="3dp"
+            android:gravity="left"
+            android:text="Shubham"
+            android:textStyle="bold"
+            android:textColor="@color/transactionColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txt_amt"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="Shubham"
+            android:textSize="25sp"
+            android:textColor="@color/money"
+            android:paddingLeft="3dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_weight="1"
+            />
+
+
+</LinearLayout>

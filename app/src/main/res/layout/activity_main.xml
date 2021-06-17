@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22292F"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_bank"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_bankimg_foreground" />
+
+    <TextView
+        android:id="@+id/iv_bank_logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SK bank"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#FF5700"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ALL USERS"
+        android:background="@drawable/roundshape"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/btn_transactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Transactions"
+        android:background="@drawable/roundshape"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

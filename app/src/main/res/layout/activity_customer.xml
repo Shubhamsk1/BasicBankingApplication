@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22292F"
+    tools:context=".CustomerActivity">
+
+    <ImageView
+        android:id="@+id/iv_customer"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_userimg"
+        />
+    <TextView
+        android:id="@+id/tv_id_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_customer"
+        android:text="Name:"
+        android:textSize="25sp"
+        android:textColor="#cf5700"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_customer"
+        android:text="Shubham S Kudekar"
+        android:layout_toRightOf="@id/tv_id_name"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/tv_id_phone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_id_name"
+        android:text="Phone:"
+        android:textSize="25sp"
+        android:textColor="#cf5700"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+       android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_id_name"
+        android:layout_toRightOf="@id/tv_id_phone"
+        android:text="9860841349"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_id_email"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_id_phone"
+        android:text="Email:"
+        android:textSize="25sp"
+        android:textColor="#cf5700"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_id_email"
+        android:text="sk@gmail.com"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/tv_id_phone"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tv_id_balance"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Balance:"
+        android:layout_below="@id/tv_id_email"
+        android:layout_marginStart="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#cf5700"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_id_email"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/tv_id_balance"
+        android:text="₹ 5000"
+        android:textColor="#38c172"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer Money"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundshape"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+</RelativeLayout>
